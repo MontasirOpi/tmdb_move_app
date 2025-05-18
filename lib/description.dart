@@ -22,6 +22,11 @@ class Description extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      appBar: AppBar(
+        title: modified_text(text: 'Movie Details', color: Colors.white, size: 20.0),
+        backgroundColor: Colors.black,
+        centerTitle: true,
+      ),
       backgroundColor: Colors.black,
       body: Container(
         child: ListView(
